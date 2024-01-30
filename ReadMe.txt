@@ -16,7 +16,7 @@ HTML
 CSS 
 JavaScript
 
-Visit the portfolio website: [https://adorable-chaja-65803b.netlify.app].
+Visit the portfolio website: [https://adeyemoolamilekan08.github.io/My-Personal-Portfolio-/].
 
 Navigate through the different sections to learn more about me and my work.
 
