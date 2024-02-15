@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click to Change</title>
+    <style>
+        #targetDiv {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clicked {
+    background-color: #ffcc00;
+    color: #333;
+}
+
+    </style>
+</head>
+<body>
+    <button id="clickMe">Click Me</button>
+    <div id="displayText" style="display: none;">This text will be displayed</div>
+
+    <script>
+        document.getElementById("clickMe").addEventListener("click", function() {
+    var displayText = document.getElementById("displayText");
+    displayText.style.display = "block";
+});
+
+    </script>
+
+    </script>
+</body>
+</html>
