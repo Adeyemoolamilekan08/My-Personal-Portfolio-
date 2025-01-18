@@ -51,7 +51,8 @@ html {
 
 body {
   font-family: 'General Sans', sans-serif;
-  background-color: var(--clr-dark);
+  /* background-color: var(--clr-dark); */
+  background-color: #0d1b2a;
   color: var(--clr-light);
 }
 
@@ -78,6 +79,8 @@ a {
   color: var(--clr-rose);
 }
 
+
+
 strong {
   color: var(--clr-indigo);
 }
@@ -92,8 +95,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-rose);
-  outline: 1px solid var(--clr-rose);
+  background-color: var(--clr-indigo);
+  outline: 1px solid var(--clr-indigo);
 }
 
 /* About Css */
@@ -116,10 +119,16 @@ body::-webkit-scrollbar-thumb {
   color: var(--clr-light);
 }
 
+.about__title:hover {
+  /* font-size: var(--size-2xl); */
+  color: var(--clr-indigo);
+}
+
 .about__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color:  var(--clr-light);
 }
 
 .about__hr {
@@ -128,7 +137,13 @@ body::-webkit-scrollbar-thumb {
 
 .about__subtitle {
   font-size: var(--size-sm);
-  color: var(--clr-slate400);
+  /* color: var(--clr-slate400); */
+  color: var(--clr-light);
+}
+
+.about__subtitle:hover {
+ 
+  color: var(--clr-indigo);
 }
 
 .about__ul-container {
@@ -146,7 +161,12 @@ body::-webkit-scrollbar-thumb {
 
 .about__list {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: var(--clr-light);
+}
+
+.about__list:hover {
+  color: var(--clr-indigo);
 }
 
 .about__list::before {
@@ -267,9 +287,14 @@ body::-webkit-scrollbar-thumb {
   text-transform: capitalize;
 }
 
+.contact__title:hover {
+  color: var(--clr-indigo);
+}
+
 .contact__description {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: var(--clr-light);
   max-width: 60ch;
 }
 
@@ -542,7 +567,8 @@ body::-webkit-scrollbar-thumb {
 .footer__title {
   font-size: var(--size-xs);
   font-weight: 400;
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: var(--clr-light);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -593,24 +619,27 @@ body::-webkit-scrollbar-thumb {
     font-size: var(--size-xs);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-slate600);
+    /* color: var(--clr-slate600); */
+    color: #fff;
     letter-spacing: -0.05em;
     transition: color 0.3s;
     /* background-color: olive; */
   }
 
   .header__link:hover {
-    color: var(--clr-rose);
+    color: var(--clr-indigo);
   }
 
   .header__line {
-    border: 1px solid var(--clr-slate800);
+    /* border: 1px solid var(--clr-slate800); */
+    border: 1px solid #fff;
     padding-top: 1.5em;
   }
 
   .header__sun {
     display: block;
-    color: var(--clr-slate600);
+    /* color: var(--clr-slate600); */
+    color: #fff;
     width: var(--size-base);
     height: var(--size-base);
   }
@@ -681,7 +710,8 @@ body::-webkit-scrollbar-thumb {
 .hero__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: #fff;
 }
 
 .hero__btn {
@@ -814,7 +844,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mobile-nav__link:hover {
-  color: var(--clr-rose);
+  color: var(--clr-indigo);
 }
 
 .mobile-nav__link-line {
@@ -844,10 +874,15 @@ body::-webkit-scrollbar-thumb {
   color: var(--clr-light);
 }
 
+.work__title:hover {
+  color: var(--clr-indigo);
+}
+
 .work__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: var(--clr-light);
   margin: 1rem auto;
 }
 
@@ -882,13 +917,16 @@ body::-webkit-scrollbar-thumb {
 
 .work__project-description1 {
   font-size: var(--size-sm);
-  color: var(--clr-slate600);
+  /* color: var(--clr-slate600); */
+  color: var(--clr-light);
   margin: 1rem 0;
 }
 
+
 .work__project-description2 {
   font-size: var(--size-sm);
-  color: var(--clr-slate400);
+  /* color: var(--clr-slate400); */
+  color: var(--clr-light);
   margin-bottom: 1rem;
 }
 
@@ -898,6 +936,10 @@ body::-webkit-scrollbar-thumb {
 
 .work__project-subtitle {
   display: none;
+}
+
+.work__project-subtitle:hover {
+  color: var(--clr-indigo);
 }
 
 /* xs */
